@@ -27,12 +27,12 @@ plt.imshow(im)
 
 
 
-    <matplotlib.image.AxesImage at 0x1154cbac8>
+    <matplotlib.image.AxesImage at 0x11559ea90>
 
 
 
 
-![png](examples_files/examples_5_1.png)
+![png](readme_files/examples_5_1.png)
 
 
 Below is a simple example of the ```Sequential``` class, which is the object that will describe all augmentations.
@@ -55,12 +55,12 @@ plt.imshow(im_aug)
 
 
 
-    <matplotlib.image.AxesImage at 0x115567b00>
+    <matplotlib.image.AxesImage at 0x115638b38>
 
 
 
 
-![png](examples_files/examples_8_1.png)
+![png](readme_files/examples_8_1.png)
 
 
 To always generate the same image output, you can use the ```random_seed``` argument. This can be useful if you, for example, have a 3D image, and you want to apply the same 2D transformation to every slice.
@@ -74,12 +74,12 @@ plt.imshow(im_aug)
 
 
 
-    <matplotlib.image.AxesImage at 0x11581fa58>
+    <matplotlib.image.AxesImage at 0x1157efa90>
 
 
 
 
-![png](examples_files/examples_10_1.png)
+![png](readme_files/examples_10_1.png)
 
 
 # 3D checkers example 
@@ -97,12 +97,12 @@ plt.imshow(im[10])
 
 
 
-    <matplotlib.image.AxesImage at 0x115955e48>
+    <matplotlib.image.AxesImage at 0x115924e80>
 
 
 
 
-![png](examples_files/examples_12_1.png)
+![png](readme_files/examples_12_1.png)
 
 
 
@@ -136,12 +136,12 @@ plt.imshow(im_aug[:, :, 5])
 
 
 
-    <matplotlib.image.AxesImage at 0x1066965f8>
+    <matplotlib.image.AxesImage at 0x1067a76a0>
 
 
 
 
-![png](examples_files/examples_13_1.png)
+![png](readme_files/examples_13_1.png)
 
 
 Multiple augmentations can be applied as follows. The ```verbose``` argument can be 0 (no verbosity) or 1 (to show progress bar).
@@ -159,7 +159,7 @@ for i in range(5):
 
 
 
-![png](examples_files/examples_15_1.png)
+![png](readme_files/examples_15_1.png)
 
 
 # 3D MR data
@@ -180,12 +180,12 @@ plt.imshow(seg[32], cmap='Greys_r')
 
 
 
-    <matplotlib.image.AxesImage at 0x106195dd8>
+    <matplotlib.image.AxesImage at 0x106267e10>
 
 
 
 
-![png](examples_files/examples_18_1.png)
+![png](readme_files/examples_18_1.png)
 
 
 In the next augmenter, we will implement most of ndaugment's functionality.
@@ -276,4 +276,9 @@ for i in range(n_aug):
 ```
 
                                            ████████████████████████████████████████
-                                           ████████████████████████████████
+                                           ████████████████████████████████████████
+
+
+
+![png](readme_files/examples_21_1.png)
+
